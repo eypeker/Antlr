@@ -1,0 +1,44 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 0 0 41 48
+
+0.3 setlinewidth
+%% x y w h highlight
+/highlight {
+        4 dict begin
+        /h exch def
+        /w exch def
+        /y exch def
+        /x exch def
+        gsave
+        newpath
+        x y moveto
+        0 h rlineto     % up to left corner
+        w 0 rlineto     % to upper right corner
+        0 h neg rlineto % to lower right corner
+        w neg 0 rlineto % back home to lower left corner
+        closepath
+        .95 .83 .82 setrgbcolor
+        fill
+        grestore
+        end
+} def
+/ArialMT findfont 11 scalefont setfont
+20.261 32.329 moveto
+4.991 15.329 lineto
+20.261 32.329 moveto
+20.261 15.329 lineto
+20.261 32.329 moveto
+35.531 15.329 lineto
+1.933 5.000 moveto
+(3) show
+stroke
+32.473 5.000 moveto
+(2) show
+stroke
+1.000 37.329 moveto
+(addition) show
+stroke
+17.049 5.000 moveto
+(+) show
+stroke
+%%Trailer

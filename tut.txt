@@ -1,0 +1,3 @@
+java -jar ../antlr.jar <grammar_filename.g4> 
+javac -cp ../antlr.jar *.java
+java .; ..\antlr.jar org.antlr.v4.runtime.misc.TestRig Demo addition -gui code.demo
